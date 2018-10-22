@@ -1,0 +1,1039 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2412078C1EA43591009D7EC4 /* HighlightedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2412078B1EA43591009D7EC4 /* HighlightedButton.swift */; };
+		24293DF9214C5AF50000084A /* PhotoSaveError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24293DF8214C5AF50000084A /* PhotoSaveError.swift */; };
+		24293DFB214C69540000084A /* PhotoPickerCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24293DFA214C69540000084A /* PhotoPickerCellViewModel.swift */; };
+		2434F5741E9424B900ACA736 /* UIImage+Mirror.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434F5731E9424B900ACA736 /* UIImage+Mirror.swift */; };
+		2434F5761E94252200ACA736 /* UITapGestureRecognizer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434F5751E94252200ACA736 /* UITapGestureRecognizer+Extension.swift */; };
+		24420CC91EBAB1F400355FF8 /* ViewControllerIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24420CC81EBAB1F400355FF8 /* ViewControllerIntegrationTests.swift */; };
+		244AED4E1EA19E24003B384D /* freehand.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 244AED4D1EA19D53003B384D /* freehand.ttf */; };
+		245E91682148EBD5009C3943 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245E91672148EBD5009C3943 /* Constants.swift */; };
+		248474661F316F0C000C08DD /* PhotoSaveState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248474651F316F0C000C08DD /* PhotoSaveState.swift */; };
+		2484746A1F33BBA4000C08DD /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248474691F33BBA4000C08DD /* Camera.swift */; };
+		248474721F33DADE000C08DD /* PhotoEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248474701F33D51B000C08DD /* PhotoEditor.swift */; };
+		248DF8491F3BBE6000F02846 /* MirrorImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248DF8481F3BBE6000F02846 /* MirrorImage.swift */; };
+		249CD08221767A14007AA1E5 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249CD08121767A14007AA1E5 /* CameraViewModel.swift */; };
+		249CD08421767F3F007AA1E5 /* FlipsyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249CD08321767F3F007AA1E5 /* FlipsyViewModel.swift */; };
+		249CD08621768090007AA1E5 /* FlipsyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249CD08521768090007AA1E5 /* FlipsyModel.swift */; };
+		249CD0882176814A007AA1E5 /* PhotoStreamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249CD0872176814A007AA1E5 /* PhotoStreamModel.swift */; };
+		249CD08A21768205007AA1E5 /* PhotoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249CD08921768205007AA1E5 /* PhotoAPI.swift */; };
+		249CD08C217682E4007AA1E5 /* PhotosCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249CD08B217682E4007AA1E5 /* PhotosCollectionViewModel.swift */; };
+		249CD08E2176839C007AA1E5 /* CameraAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249CD08D2176839C007AA1E5 /* CameraAPI.swift */; };
+		249CD09121768CDE007AA1E5 /* PermissionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249CD09021768CDE007AA1E5 /* PermissionsModel.swift */; };
+		249CD09321768CFF007AA1E5 /* PermissionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249CD09221768CFF007AA1E5 /* PermissionsViewModel.swift */; };
+		24A30EFF2157319F00535DFF /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A30EFE2157319F00535DFF /* Navigation.swift */; };
+		24A30F01215731F300535DFF /* UIViewController+Instantiate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A30F00215731F300535DFF /* UIViewController+Instantiate.swift */; };
+		24A30F14215DC27B00535DFF /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A30F13215DC27B00535DFF /* Coordinator.swift */; };
+		24B4274E1EB94D86004A4521 /* FlipsyUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B4274D1EB94D86004A4521 /* FlipsyUnitTests.swift */; };
+		24B427591EB96522004A4521 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8065101E203FAB00F2228A /* Main.storyboard */; };
+		24BAF5A31EA6F44100ACEF23 /* UIView+Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BAF5A21EA6F44100ACEF23 /* UIView+Border.swift */; };
+		24BAF5A51EA6FB3400ACEF23 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BAF5A41EA6FB3400ACEF23 /* UIButton+Extension.swift */; };
+		24D579C61EA8208100A0E994 /* FlipsyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D579C51EA8208100A0E994 /* FlipsyUITests.swift */; };
+		33BF714D12EC5E0ED799B920 /* Pods_Flipsy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387B7AC6A153A4956664646A /* Pods_Flipsy.framework */; };
+		8E1794461E36E7CC006BC25B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1794451E36E7CC006BC25B /* CameraViewController.swift */; };
+		8E1BB7901E3C467D004ED739 /* SlideFromRightSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1BB78F1E3C467D004ED739 /* SlideFromRightSegue.swift */; };
+		8E50FB211E36D3C600302E25 /* PermissionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E50FB201E36D3C600302E25 /* PermissionsViewController.swift */; };
+		8E7AA8611E32C451003421DF /* UIDeviceOrientation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7AA8601E32C451003421DF /* UIDeviceOrientation+Extension.swift */; };
+		8E7AA8671E32E924003421DF /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7AA8661E32E924003421DF /* PhotosCollectionViewController.swift */; };
+		8E80650D1E203FAB00F2228A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E80650C1E203FAB00F2228A /* AppDelegate.swift */; };
+		8E80650F1E203FAB00F2228A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E80650E1E203FAB00F2228A /* MainViewController.swift */; };
+		8E8065121E203FAB00F2228A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8065101E203FAB00F2228A /* Main.storyboard */; };
+		8E8065141E203FAB00F2228A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8065131E203FAB00F2228A /* Assets.xcassets */; };
+		8E8065171E203FAB00F2228A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8065151E203FAB00F2228A /* LaunchScreen.storyboard */; };
+		8E8065221E25BC5800F2228A /* PhotoPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8065211E25BC5800F2228A /* PhotoPickerCell.swift */; };
+		AF6C13CC56D59F5916A60F3D /* Pods_Flipsy_FlipsyUnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8617B1383472E91B4CD2A2 /* Pods_Flipsy_FlipsyUnitTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24B427501EB94D86004A4521 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E8065011E203FAB00F2228A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E8065081E203FAB00F2228A;
+			remoteInfo = flipsy;
+		};
+		24D579C81EA8208100A0E994 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E8065011E203FAB00F2228A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E8065081E203FAB00F2228A;
+			remoteInfo = flipsy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F995F131176F59A9F1022C3 /* Pods-Flipsy-FlipsyUnitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flipsy-FlipsyUnitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flipsy-FlipsyUnitTests/Pods-Flipsy-FlipsyUnitTests.release.xcconfig"; sourceTree = "<group>"; };
+		2412078B1EA43591009D7EC4 /* HighlightedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighlightedButton.swift; sourceTree = "<group>"; };
+		24293DF8214C5AF50000084A /* PhotoSaveError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSaveError.swift; sourceTree = "<group>"; };
+		24293DFA214C69540000084A /* PhotoPickerCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerCellViewModel.swift; sourceTree = "<group>"; };
+		2434F5731E9424B900ACA736 /* UIImage+Mirror.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Mirror.swift"; sourceTree = "<group>"; };
+		2434F5751E94252200ACA736 /* UITapGestureRecognizer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITapGestureRecognizer+Extension.swift"; sourceTree = "<group>"; };
+		24420CC81EBAB1F400355FF8 /* ViewControllerIntegrationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerIntegrationTests.swift; sourceTree = "<group>"; };
+		244AED4D1EA19D53003B384D /* freehand.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = freehand.ttf; sourceTree = "<group>"; };
+		245E91672148EBD5009C3943 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		248474651F316F0C000C08DD /* PhotoSaveState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSaveState.swift; sourceTree = "<group>"; };
+		248474691F33BBA4000C08DD /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		2484746E1F33BE23000C08DD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		248474701F33D51B000C08DD /* PhotoEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoEditor.swift; sourceTree = "<group>"; };
+		248DF8481F3BBE6000F02846 /* MirrorImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MirrorImage.swift; sourceTree = "<group>"; };
+		249CD08121767A14007AA1E5 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		249CD08321767F3F007AA1E5 /* FlipsyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipsyViewModel.swift; sourceTree = "<group>"; };
+		249CD08521768090007AA1E5 /* FlipsyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipsyModel.swift; sourceTree = "<group>"; };
+		249CD0872176814A007AA1E5 /* PhotoStreamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStreamModel.swift; sourceTree = "<group>"; };
+		249CD08921768205007AA1E5 /* PhotoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAPI.swift; sourceTree = "<group>"; };
+		249CD08B217682E4007AA1E5 /* PhotosCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewModel.swift; sourceTree = "<group>"; };
+		249CD08D2176839C007AA1E5 /* CameraAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAPI.swift; sourceTree = "<group>"; };
+		249CD09021768CDE007AA1E5 /* PermissionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsModel.swift; sourceTree = "<group>"; };
+		249CD09221768CFF007AA1E5 /* PermissionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsViewModel.swift; sourceTree = "<group>"; };
+		24A30EFE2157319F00535DFF /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		24A30F00215731F300535DFF /* UIViewController+Instantiate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Instantiate.swift"; sourceTree = "<group>"; };
+		24A30F13215DC27B00535DFF /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		24B4274B1EB94D86004A4521 /* FlipsyUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipsyUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B4274D1EB94D86004A4521 /* FlipsyUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipsyUnitTests.swift; sourceTree = "<group>"; };
+		24BAF5A21EA6F44100ACEF23 /* UIView+Border.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Border.swift"; sourceTree = "<group>"; };
+		24BAF5A41EA6FB3400ACEF23 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		24D579C31EA8208100A0E994 /* FlipsyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipsyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D579C51EA8208100A0E994 /* FlipsyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipsyUITests.swift; sourceTree = "<group>"; };
+		24D579C71EA8208100A0E994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A8617B1383472E91B4CD2A2 /* Pods_Flipsy_FlipsyUnitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flipsy_FlipsyUnitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		387B7AC6A153A4956664646A /* Pods_Flipsy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flipsy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E02EDCAA2AC2150D98BFEA /* Pods-Flipsy-FlipsyUnitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flipsy-FlipsyUnitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flipsy-FlipsyUnitTests/Pods-Flipsy-FlipsyUnitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4661703DCA5B39912F1C624B /* Pods-Flipsy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flipsy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flipsy/Pods-Flipsy.debug.xcconfig"; sourceTree = "<group>"; };
+		84CE84B6EF4C6CFE61E9EF09 /* Pods-Flipsy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flipsy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flipsy/Pods-Flipsy.release.xcconfig"; sourceTree = "<group>"; };
+		8E1794451E36E7CC006BC25B /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		8E1BB78F1E3C467D004ED739 /* SlideFromRightSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideFromRightSegue.swift; sourceTree = "<group>"; };
+		8E50FB201E36D3C600302E25 /* PermissionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionsViewController.swift; sourceTree = "<group>"; };
+		8E7AA8601E32C451003421DF /* UIDeviceOrientation+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDeviceOrientation+Extension.swift"; sourceTree = "<group>"; };
+		8E7AA8661E32E924003421DF /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		8E8065091E203FAB00F2228A /* Flipsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flipsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E80650C1E203FAB00F2228A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E80650E1E203FAB00F2228A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8E8065111E203FAB00F2228A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E8065131E203FAB00F2228A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E8065161E203FAB00F2228A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E8065181E203FAB00F2228A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E8065211E25BC5800F2228A /* PhotoPickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPickerCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24B427481EB94D86004A4521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6C13CC56D59F5916A60F3D /* Pods_Flipsy_FlipsyUnitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D579C01EA8208100A0E994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8065061E203FAB00F2228A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BF714D12EC5E0ED799B920 /* Pods_Flipsy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2434F5721E9424A500ACA736 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				249CD09421768DB6007AA1E5 /* Buttons */,
+				8E7AA85F1E32C443003421DF /* Custom Segue */,
+				24BAF5A41EA6FB3400ACEF23 /* UIButton+Extension.swift */,
+				8E7AA8601E32C451003421DF /* UIDeviceOrientation+Extension.swift */,
+				2434F5731E9424B900ACA736 /* UIImage+Mirror.swift */,
+				2434F5751E94252200ACA736 /* UITapGestureRecognizer+Extension.swift */,
+				24BAF5A21EA6F44100ACEF23 /* UIView+Border.swift */,
+				24A30F00215731F300535DFF /* UIViewController+Instantiate.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		244AED4C1EA19D42003B384D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E8065131E203FAB00F2228A /* Assets.xcassets */,
+				244AED4D1EA19D53003B384D /* freehand.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2484745E1F313B1F000C08DD /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8E80650C1E203FAB00F2228A /* AppDelegate.swift */,
+				245E91672148EBD5009C3943 /* Constants.swift */,
+				24A30F13215DC27B00535DFF /* Coordinator.swift */,
+				24A30EFE2157319F00535DFF /* Navigation.swift */,
+				8E8065181E203FAB00F2228A /* Info.plist */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		248474601F316D8F000C08DD /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				248474681F33BB84000C08DD /* Camera */,
+				248DF84A1F3BBE6700F02846 /* Mirror Images */,
+				248474641F316EEA000C08DD /* Photos */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		248474641F316EEA000C08DD /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				249CD08921768205007AA1E5 /* PhotoAPI.swift */,
+				248474701F33D51B000C08DD /* PhotoEditor.swift */,
+				24293DF8214C5AF50000084A /* PhotoSaveError.swift */,
+				248474651F316F0C000C08DD /* PhotoSaveState.swift */,
+			);
+			name = Photos;
+			sourceTree = "<group>";
+		};
+		248474681F33BB84000C08DD /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				249CD08D2176839C007AA1E5 /* CameraAPI.swift */,
+				248474691F33BBA4000C08DD /* Camera.swift */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		248DF84A1F3BBE6700F02846 /* Mirror Images */ = {
+			isa = PBXGroup;
+			children = (
+				248DF8481F3BBE6000F02846 /* MirrorImage.swift */,
+			);
+			name = "Mirror Images";
+			sourceTree = "<group>";
+		};
+		249CD08F21768425007AA1E5 /* Permissions */ = {
+			isa = PBXGroup;
+			children = (
+				249CD09021768CDE007AA1E5 /* PermissionsModel.swift */,
+				249CD09221768CFF007AA1E5 /* PermissionsViewModel.swift */,
+				8E50FB201E36D3C600302E25 /* PermissionsViewController.swift */,
+			);
+			path = Permissions;
+			sourceTree = "<group>";
+		};
+		249CD09421768DB6007AA1E5 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				2412078B1EA43591009D7EC4 /* HighlightedButton.swift */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		24A30F0F215CB2EF00535DFF /* Photo Picker Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8E8065211E25BC5800F2228A /* PhotoPickerCell.swift */,
+				24293DFA214C69540000084A /* PhotoPickerCellViewModel.swift */,
+			);
+			name = "Photo Picker Cell";
+			sourceTree = "<group>";
+		};
+		24A30F10215CB30100535DFF /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				249CD08121767A14007AA1E5 /* CameraViewModel.swift */,
+				8E1794451E36E7CC006BC25B /* CameraViewController.swift */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		24A30F11215CB31000535DFF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				249CD08521768090007AA1E5 /* FlipsyModel.swift */,
+				249CD08321767F3F007AA1E5 /* FlipsyViewModel.swift */,
+				8E80650E1E203FAB00F2228A /* MainViewController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		24A30F12215CB31600535DFF /* Photo Collection */ = {
+			isa = PBXGroup;
+			children = (
+				249CD0872176814A007AA1E5 /* PhotoStreamModel.swift */,
+				249CD08B217682E4007AA1E5 /* PhotosCollectionViewModel.swift */,
+				8E7AA8661E32E924003421DF /* PhotosCollectionViewController.swift */,
+			);
+			path = "Photo Collection";
+			sourceTree = "<group>";
+		};
+		24B4274C1EB94D86004A4521 /* FlipsyUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				24B4274D1EB94D86004A4521 /* FlipsyUnitTests.swift */,
+				2484746E1F33BE23000C08DD /* Info.plist */,
+				24420CC81EBAB1F400355FF8 /* ViewControllerIntegrationTests.swift */,
+			);
+			path = FlipsyUnitTests;
+			sourceTree = "<group>";
+		};
+		24D579C41EA8208100A0E994 /* FlipsyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24D579C51EA8208100A0E994 /* FlipsyUITests.swift */,
+				24D579C71EA8208100A0E994 /* Info.plist */,
+			);
+			path = FlipsyUITests;
+			sourceTree = "<group>";
+		};
+		8E7AA85A1E32BE32003421DF /* View Models + Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				24A30F10215CB30100535DFF /* Camera */,
+				24A30F11215CB31000535DFF /* Main */,
+				249CD08F21768425007AA1E5 /* Permissions */,
+				24A30F12215CB31600535DFF /* Photo Collection */,
+				24A30F0F215CB2EF00535DFF /* Photo Picker Cell */,
+			);
+			name = "View Models + Controllers";
+			sourceTree = "<group>";
+		};
+		8E7AA85C1E32BE7D003421DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E8065101E203FAB00F2228A /* Main.storyboard */,
+				8E8065151E203FAB00F2228A /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8E7AA85F1E32C443003421DF /* Custom Segue */ = {
+			isa = PBXGroup;
+			children = (
+				8E1BB78F1E3C467D004ED739 /* SlideFromRightSegue.swift */,
+			);
+			name = "Custom Segue";
+			sourceTree = "<group>";
+		};
+		8E8065001E203FAB00F2228A = {
+			isa = PBXGroup;
+			children = (
+				8E80650B1E203FAB00F2228A /* Flipsy */,
+				24D579C41EA8208100A0E994 /* FlipsyUITests */,
+				24B4274C1EB94D86004A4521 /* FlipsyUnitTests */,
+				8E80650A1E203FAB00F2228A /* Products */,
+				F32C45A79391926B93350FC6 /* Pods */,
+				FAD46AE3917C78A5A02D6752 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E80650A1E203FAB00F2228A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E8065091E203FAB00F2228A /* Flipsy.app */,
+				24D579C31EA8208100A0E994 /* FlipsyUITests.xctest */,
+				24B4274B1EB94D86004A4521 /* FlipsyUnitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E80650B1E203FAB00F2228A /* Flipsy */ = {
+			isa = PBXGroup;
+			children = (
+				2484745E1F313B1F000C08DD /* Application */,
+				8E7AA85A1E32BE32003421DF /* View Models + Controllers */,
+				8E7AA85C1E32BE7D003421DF /* Views */,
+				248474601F316D8F000C08DD /* Modules */,
+				2434F5721E9424A500ACA736 /* Extensions */,
+				244AED4C1EA19D42003B384D /* Resources */,
+			);
+			path = Flipsy;
+			sourceTree = "<group>";
+		};
+		F32C45A79391926B93350FC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4661703DCA5B39912F1C624B /* Pods-Flipsy.debug.xcconfig */,
+				84CE84B6EF4C6CFE61E9EF09 /* Pods-Flipsy.release.xcconfig */,
+				44E02EDCAA2AC2150D98BFEA /* Pods-Flipsy-FlipsyUnitTests.debug.xcconfig */,
+				1F995F131176F59A9F1022C3 /* Pods-Flipsy-FlipsyUnitTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FAD46AE3917C78A5A02D6752 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				387B7AC6A153A4956664646A /* Pods_Flipsy.framework */,
+				2A8617B1383472E91B4CD2A2 /* Pods_Flipsy_FlipsyUnitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24B4274A1EB94D86004A4521 /* FlipsyUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24B427541EB94D86004A4521 /* Build configuration list for PBXNativeTarget "FlipsyUnitTests" */;
+			buildPhases = (
+				89829300E24F6E47A3F06038 /* [CP] Check Pods Manifest.lock */,
+				24B427471EB94D86004A4521 /* Sources */,
+				24B427481EB94D86004A4521 /* Frameworks */,
+				24B427491EB94D86004A4521 /* Resources */,
+				0EFC62804137897A24D88E43 /* [CP] Embed Pods Frameworks */,
+				BE944555D9B9C57ABD91E6D0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24B427511EB94D86004A4521 /* PBXTargetDependency */,
+			);
+			name = FlipsyUnitTests;
+			productName = flipsyUnitTests;
+			productReference = 24B4274B1EB94D86004A4521 /* FlipsyUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24D579C21EA8208100A0E994 /* FlipsyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D579CA1EA8208100A0E994 /* Build configuration list for PBXNativeTarget "FlipsyUITests" */;
+			buildPhases = (
+				24D579BF1EA8208100A0E994 /* Sources */,
+				24D579C01EA8208100A0E994 /* Frameworks */,
+				24D579C11EA8208100A0E994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24D579C91EA8208100A0E994 /* PBXTargetDependency */,
+			);
+			name = FlipsyUITests;
+			productName = flipsyUITests;
+			productReference = 24D579C31EA8208100A0E994 /* FlipsyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8E8065081E203FAB00F2228A /* Flipsy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E80651B1E203FAB00F2228A /* Build configuration list for PBXNativeTarget "Flipsy" */;
+			buildPhases = (
+				93AAB65D4A448A60F35DA100 /* [CP] Check Pods Manifest.lock */,
+				8E8065051E203FAB00F2228A /* Sources */,
+				8E8065061E203FAB00F2228A /* Frameworks */,
+				8E8065071E203FAB00F2228A /* Resources */,
+				2498CA811E8DD9EB003A0998 /* ShellScript */,
+				1DCBCFC92CFFEA2F6AEE2703 /* [CP] Embed Pods Frameworks */,
+				05993FC956C65DA596B47820 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flipsy;
+			productName = pixpix;
+			productReference = 8E8065091E203FAB00F2228A /* Flipsy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E8065011E203FAB00F2228A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Dot;
+				TargetAttributes = {
+					24B4274A1EB94D86004A4521 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 6U9LEC67Z8;
+						LastSwiftMigration = 0930;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8E8065081E203FAB00F2228A;
+					};
+					24D579C21EA8208100A0E994 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 6U9LEC67Z8;
+						LastSwiftMigration = 0930;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8E8065081E203FAB00F2228A;
+					};
+					8E8065081E203FAB00F2228A = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6U9LEC67Z8;
+						LastSwiftMigration = 0930;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8E8065041E203FAB00F2228A /* Build configuration list for PBXProject "Flipsy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E8065001E203FAB00F2228A;
+			productRefGroup = 8E80650A1E203FAB00F2228A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E8065081E203FAB00F2228A /* Flipsy */,
+				24D579C21EA8208100A0E994 /* FlipsyUITests */,
+				24B4274A1EB94D86004A4521 /* FlipsyUnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24B427491EB94D86004A4521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B427591EB96522004A4521 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D579C11EA8208100A0E994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8065071E203FAB00F2228A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8065171E203FAB00F2228A /* LaunchScreen.storyboard in Resources */,
+				244AED4E1EA19E24003B384D /* freehand.ttf in Resources */,
+				8E8065141E203FAB00F2228A /* Assets.xcassets in Resources */,
+				8E8065121E203FAB00F2228A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05993FC956C65DA596B47820 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flipsy/Pods-Flipsy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0EFC62804137897A24D88E43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flipsy-FlipsyUnitTests/Pods-Flipsy-FlipsyUnitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DCBCFC92CFFEA2F6AEE2703 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flipsy/Pods-Flipsy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2498CA811E8DD9EB003A0998 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 4e1b78e5ca5e0120de329ed7db741662dbb0116c bf3b44e0bac2e4e2a7a28d2bf4d9b74d5ec882151570e6f3b23a5ddfcf2da014\nTAGS=\"TODO:|FIXME:\"\necho \"searching ${SRCROOT} for ${TAGS}\"\nfind \"${SRCROOT}\" \\( -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$\" | perl -p -e \"s/($TAGS)/ warning: \\$1/\"\n";
+		};
+		89829300E24F6E47A3F06038 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flipsy-FlipsyUnitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93AAB65D4A448A60F35DA100 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flipsy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE944555D9B9C57ABD91E6D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flipsy-FlipsyUnitTests/Pods-Flipsy-FlipsyUnitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24B427471EB94D86004A4521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24420CC91EBAB1F400355FF8 /* ViewControllerIntegrationTests.swift in Sources */,
+				24B4274E1EB94D86004A4521 /* FlipsyUnitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D579BF1EA8208100A0E994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D579C61EA8208100A0E994 /* FlipsyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8065051E203FAB00F2228A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249CD0882176814A007AA1E5 /* PhotoStreamModel.swift in Sources */,
+				2484746A1F33BBA4000C08DD /* Camera.swift in Sources */,
+				249CD08E2176839C007AA1E5 /* CameraAPI.swift in Sources */,
+				245E91682148EBD5009C3943 /* Constants.swift in Sources */,
+				8E7AA8611E32C451003421DF /* UIDeviceOrientation+Extension.swift in Sources */,
+				8E80650F1E203FAB00F2228A /* MainViewController.swift in Sources */,
+				249CD09121768CDE007AA1E5 /* PermissionsModel.swift in Sources */,
+				24A30F01215731F300535DFF /* UIViewController+Instantiate.swift in Sources */,
+				24BAF5A51EA6FB3400ACEF23 /* UIButton+Extension.swift in Sources */,
+				8E8065221E25BC5800F2228A /* PhotoPickerCell.swift in Sources */,
+				249CD08C217682E4007AA1E5 /* PhotosCollectionViewModel.swift in Sources */,
+				24A30F14215DC27B00535DFF /* Coordinator.swift in Sources */,
+				8E7AA8671E32E924003421DF /* PhotosCollectionViewController.swift in Sources */,
+				8E1794461E36E7CC006BC25B /* CameraViewController.swift in Sources */,
+				249CD08421767F3F007AA1E5 /* FlipsyViewModel.swift in Sources */,
+				2434F5761E94252200ACA736 /* UITapGestureRecognizer+Extension.swift in Sources */,
+				24293DF9214C5AF50000084A /* PhotoSaveError.swift in Sources */,
+				248474661F316F0C000C08DD /* PhotoSaveState.swift in Sources */,
+				248474721F33DADE000C08DD /* PhotoEditor.swift in Sources */,
+				2412078C1EA43591009D7EC4 /* HighlightedButton.swift in Sources */,
+				248DF8491F3BBE6000F02846 /* MirrorImage.swift in Sources */,
+				249CD08A21768205007AA1E5 /* PhotoAPI.swift in Sources */,
+				2434F5741E9424B900ACA736 /* UIImage+Mirror.swift in Sources */,
+				24A30EFF2157319F00535DFF /* Navigation.swift in Sources */,
+				24293DFB214C69540000084A /* PhotoPickerCellViewModel.swift in Sources */,
+				249CD08621768090007AA1E5 /* FlipsyModel.swift in Sources */,
+				24BAF5A31EA6F44100ACEF23 /* UIView+Border.swift in Sources */,
+				8E50FB211E36D3C600302E25 /* PermissionsViewController.swift in Sources */,
+				8E1BB7901E3C467D004ED739 /* SlideFromRightSegue.swift in Sources */,
+				249CD09321768CFF007AA1E5 /* PermissionsViewModel.swift in Sources */,
+				249CD08221767A14007AA1E5 /* CameraViewModel.swift in Sources */,
+				8E80650D1E203FAB00F2228A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24B427511EB94D86004A4521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E8065081E203FAB00F2228A /* Flipsy */;
+			targetProxy = 24B427501EB94D86004A4521 /* PBXContainerItemProxy */;
+		};
+		24D579C91EA8208100A0E994 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E8065081E203FAB00F2228A /* Flipsy */;
+			targetProxy = 24D579C81EA8208100A0E994 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E8065101E203FAB00F2228A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E8065111E203FAB00F2228A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E8065151E203FAB00F2228A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E8065161E203FAB00F2228A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24B427521EB94D86004A4521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44E02EDCAA2AC2150D98BFEA /* Pods-Flipsy-FlipsyUnitTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = 6U9LEC67Z8;
+				INFOPLIST_FILE = flipsyUnitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dot.flipsyUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flipsy.temp_caseinsensitive_rename.app/Flipsy.temp_caseinsensitive_rename";
+			};
+			name = Debug;
+		};
+		24B427531EB94D86004A4521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F995F131176F59A9F1022C3 /* Pods-Flipsy-FlipsyUnitTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = 6U9LEC67Z8;
+				INFOPLIST_FILE = flipsyUnitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dot.flipsyUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flipsy.temp_caseinsensitive_rename.app/Flipsy.temp_caseinsensitive_rename";
+			};
+			name = Release;
+		};
+		24D579CB1EA8208100A0E994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = 6U9LEC67Z8;
+				INFOPLIST_FILE = flipsyUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dot.flipsyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = flipsy;
+			};
+			name = Debug;
+		};
+		24D579CC1EA8208100A0E994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = 6U9LEC67Z8;
+				INFOPLIST_FILE = flipsyUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dot.flipsyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = flipsy;
+			};
+			name = Release;
+		};
+		8E8065191E203FAB00F2228A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E80651A1E203FAB00F2228A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E80651C1E203FAB00F2228A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4661703DCA5B39912F1C624B /* Pods-Flipsy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6U9LEC67Z8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Flipsy/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Crashlytics\"",
+					"-framework",
+					"\"Fabric\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dot.flipsy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8E80651D1E203FAB00F2228A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84CE84B6EF4C6CFE61E9EF09 /* Pods-Flipsy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6U9LEC67Z8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Flipsy/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Crashlytics\"",
+					"-framework",
+					"\"Fabric\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dot.flipsy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24B427541EB94D86004A4521 /* Build configuration list for PBXNativeTarget "FlipsyUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B427521EB94D86004A4521 /* Debug */,
+				24B427531EB94D86004A4521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24D579CA1EA8208100A0E994 /* Build configuration list for PBXNativeTarget "FlipsyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D579CB1EA8208100A0E994 /* Debug */,
+				24D579CC1EA8208100A0E994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E8065041E203FAB00F2228A /* Build configuration list for PBXProject "Flipsy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E8065191E203FAB00F2228A /* Debug */,
+				8E80651A1E203FAB00F2228A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E80651B1E203FAB00F2228A /* Build configuration list for PBXNativeTarget "Flipsy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E80651C1E203FAB00F2228A /* Debug */,
+				8E80651D1E203FAB00F2228A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E8065011E203FAB00F2228A /* Project object */;
+}

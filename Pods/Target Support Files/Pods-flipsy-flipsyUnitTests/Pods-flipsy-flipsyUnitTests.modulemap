@@ -1,0 +1,6 @@
+framework module Pods_Flipsy_FlipsyUnitTests {
+  umbrella header "Pods-Flipsy-FlipsyUnitTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
